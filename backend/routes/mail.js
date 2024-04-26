@@ -15,7 +15,6 @@ app.use(express.json({
   type: ['application/json', 'text/plain']
 }))
 
-// sendGridMail.setApiKey("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");
 
 function getApprove(mailperson,en_courseid){
     return {
